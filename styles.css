@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f1eb;
+}
+div {
+  background-color: #88ab8e;
+  padding: 24px;
+  border-radius: 15px;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0 2.8px 2.2px rgba(52, 11, 233, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+input {
+  border: 0;
+  border-radius: 25px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+input:hover {
+  background-color: rgb(167, 214, 119);
+}
+
+label {
+  /* display: block; */
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  background-color: #eee7da;
+}
+
+th {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
